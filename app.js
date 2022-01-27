@@ -19,3 +19,4 @@ const _ = require('lodash'); //external files first.
 const items = [1, [2, [3, [4]]]];
 const newItems = _.flattenDeep(items);
 console.log(newItems);
+console.log('hello people');
